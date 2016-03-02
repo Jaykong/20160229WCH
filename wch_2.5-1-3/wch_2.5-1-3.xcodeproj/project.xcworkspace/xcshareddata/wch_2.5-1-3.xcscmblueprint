@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1BC462DDA4E93004D9041D423C600F6F9369709B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1BC462DDA4E93004D9041D423C600F6F9369709B" : 0,
+    "DBF7470DF4A6E3AAB3489D26D996F7D8292FEBEF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "00C92114-8B32-4658-940B-08AEDE46F35F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1BC462DDA4E93004D9041D423C600F6F9369709B" : "homework\/",
+    "DBF7470DF4A6E3AAB3489D26D996F7D8292FEBEF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "wch_2.5-1-3",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "wch_2.5-1-3\/wch_2.5-1-3.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Hankid\/Hankid_Homeworks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BC462DDA4E93004D9041D423C600F6F9369709B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jaykong\/iOS_2016_2_29_CourseWorks",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBF7470DF4A6E3AAB3489D26D996F7D8292FEBEF"
+    }
+  ]
+}
