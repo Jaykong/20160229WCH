@@ -1,14 +1,14 @@
 //
-//  Rectangle.m
+//  XYPoint.m
 //  wch_8.5-6
 //
-//  Created by Hankid Wang on 16/3/12.
+//  Created by Hankid Wang on 16/3/14.
 //  Copyright © 2016年 Hankid Wang. All rights reserved.
 //
 
-#import "Rectangle.h"
+#import "XYPoint.h"
 
-@implementation Rectangle
+@implementation XYPoint
 
 @synthesize height, width, x, y;
 
@@ -24,16 +24,6 @@
     y = yVal;
 }
 
--(void) compare
-{
-    if (x <= width && y <= height) {
-       NSLog (@"The point is in the rectangle");
-    }
-    else
-    {
-        NSLog(@"The point is not in the rectangle");
-    }
-}
 
 -(void) showRectangle
 {
@@ -44,4 +34,18 @@
 {
     NSLog (@"The point is at (%i , %i)", x, y);
 }
+
+-(bool) containsPoint: (XYPoint *) aPoint
+{
+    if (aPoint.x <= width && aPoint.y <= height)
+    {
+        return YES;
+    }else
+    {
+        return NO;
+    }
+    
+}
+
+
 @end

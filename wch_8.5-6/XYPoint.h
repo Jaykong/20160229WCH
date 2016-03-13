@@ -1,14 +1,14 @@
 //
-//  Rectangle.h
+//  XYPoint.h
 //  wch_8.5-6
 //
-//  Created by Hankid Wang on 16/3/12.
+//  Created by Hankid Wang on 16/3/14.
 //  Copyright © 2016年 Hankid Wang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface Rectangle : NSObject
+@interface XYPoint: NSObject
 
 @property int height, width, x, y;
 
@@ -16,8 +16,7 @@
 
 -(void) setX: (int)xVal andY: (int) yVal;
 
-//-(bool) containsPoint: (XYPoint *) apoint;
--(void) compare;
+-(bool) containsPoint: (XYPoint *) aPoint;
 
 -(void) showRectangle;
 
