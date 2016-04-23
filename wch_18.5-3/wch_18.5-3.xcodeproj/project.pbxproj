@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		566DDC611CAA277C0001225A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 566DDC601CAA277C0001225A /* main.m */; };
+		F81342111CCBB6A2005E9B47 /* Diction.m in Sources */ = {isa = PBXBuildFile; fileRef = F81342101CCBB6A2005E9B47 /* Diction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		566DDC5D1CAA277C0001225A /* wch_18.5-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "wch_18.5-3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		566DDC601CAA277C0001225A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F813420F1CCBB6A2005E9B47 /* Diction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diction.h; sourceTree = "<group>"; };
+		F81342101CCBB6A2005E9B47 /* Diction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				566DDC601CAA277C0001225A /* main.m */,
+				F813420F1CCBB6A2005E9B47 /* Diction.h */,
+				F81342101CCBB6A2005E9B47 /* Diction.m */,
 			);
 			path = "wch_18.5-3";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81342111CCBB6A2005E9B47 /* Diction.m in Sources */,
 				566DDC611CAA277C0001225A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +245,7 @@
 				566DDC661CAA277C0001225A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
